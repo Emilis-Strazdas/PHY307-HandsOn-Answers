@@ -1,8 +1,14 @@
 ## Getting started
 
+In this exercise we will analyze data recorded by the Compact muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC).
+In 2012, after two years of data taking, the ATLAS and CMS experiments reported the observation of a new particle with a mass around 125 GeV, later established to be the Higgs boson. The Higgs boson, when produced in a high energy collision, decays almost immediately into other particles. One of the main decay channels used to establish the existence of the Higgs boson is the decay to a pair of Z bosons, which themselves decay to pairs of electrons or muons. This is a very clean signature, and one can see the visible peak in the four-lepton invariant mass distribution caused by the Higgs boson.
+
+The goal of this exercise is to recreate the $H\rightarrow ZZ \rightarrow 4l$ analysis, using actual CMS data and Monte Carlo simulation, and then attempt to identify the Higgs boson, as in the figure below.
+
+<img src="CMS-HIG-13-002_Figure_010.png" width="500">
+
 ### Download data files
 
-In this exercise we will analyze data recorded by the Compact muon Solenoid (CMS) experiment at the Large Hadron Collider (LHC).
 The data is stored in binary files in what is called the "root" format.
 Start by downloading the following files:
 
