@@ -29,5 +29,14 @@ Install the JupyterLab desktop software following the instructions for your oper
 
 When first opening JupyterLab, it may ask if you want to install a local python release - if so, select yes.
 
-We will need to use some extra python packages for the exercise. To install these, open and run the `Setup.ipynb` notebook in JupyterLab. You should see the modules being installed.
-Next, try to run the `FirstTest.ipynb` notebook - see if you can make the Higgs boson invariant mass distribution.
+### Download the notebooks
+
+It's important to download the whole git repository - the easiest way is to download the zip file:
+
+<img src="download.png">
+
+then unzip somewhere on your computer and copy the four .root files above into the same location.
+
+With that done, we will need to use some extra python packages for the exercise. To install these, open and run the `Setup.ipynb` notebook in JupyterLab. You should see the modules being installed.
+
+After that, you can work through `Exercise.ipynb`.
