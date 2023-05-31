@@ -5,7 +5,7 @@ In 2012, after two years of data taking, the ATLAS and CMS experiments reported 
 
 The goal of this exercise is to recreate the $H\rightarrow ZZ \rightarrow 4l$ analysis, using actual CMS data and Monte Carlo simulation, and then attempt to identify the Higgs boson, as in the figure below.
 
-<img src="CMS-HIG-13-002_Figure_010.png" width="500">
+<img src="figs/CMS-HIG-13-002_Figure_010.png" width="500">
 
 ### Download data files
 
@@ -19,7 +19,7 @@ Start by downloading the following files:
 
  On each page there is a description of the contents of the file, and the download link is at the end of the page:
 
- ![](DownloadLink.png)
+ ![](figs/DownloadLink.png)
 
 Note that the total download is around 7 GB, so make sure you have enough space!
 
@@ -33,7 +33,7 @@ When first opening JupyterLab, it may ask if you want to install a local python 
 
 It's important to download the whole git repository - the easiest way is to download the zip file:
 
-<img src="download.png">
+<img src="figs/download.png">
 
 then unzip somewhere on your computer and copy the four .root files above into the same location.
 
